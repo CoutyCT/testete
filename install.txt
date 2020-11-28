@@ -1,0 +1,31 @@
+Iniciar Todo Estos Pasos
+
+apt-get update
+apt-get upgrade -y
+apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl unzip -y
+apt-get install php5-mcrypt
+php5enmod mcrypt
+service apache2 restart
+----------------------------------------- 
+install_iptv_pro.php
+root
+
+ 
+iptv_panel_pro.zip
+ tmp
+
+/var/www/html/
+ 
+modules,downloads,licences
+
+------------------------------------
+php install_iptv_pro.php
+
+Licencia
+licenca1
+
+Colocar Carpeta xtreamcodes_pro_panel en Dar Sobreescribir
+/etc/init.d/xtreamcodes_pro_panel
+
+xxx.xxx.xxx.xxx:8000
+
